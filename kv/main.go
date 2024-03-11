@@ -82,7 +82,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	log.Info("Server stopped.")
+	// log.Info("Server stopped.")
 }
 
 func handleSignal(grpcServer *grpc.Server) {
